@@ -34,25 +34,35 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/0sMhwlJ" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=<a href="<a href="https://imgur.com/0sMhwlJ"><img src="https://i.imgur.com/0sMhwlJ.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will follow the steps and create a WIndows 10 virtual Machines(VM) on Azure software. We can complete theses by opening Virtaul Machine = Create = Windsows or Mac, then we will create a username and password = Review and lastely create.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=" href="https://imgur.com/HMTrfjp"><img src="https://i.imgur.com/HMTrfjp.png" title="source: imgur.com" /></a>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src=<a  href="
+                                                                                                 
+The second step would be setting up a Remote Desktop Connection, This process would connect our virtual machines by using the assigned IP address when we created our Virtual machine in Azure. Use the correct credentials you created to sign into your virtual machine to keep everything organized.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=<a href=<a href="https://imgur.com/DCoZGWl"><img src="https://i.imgur.com/DCoZGWl.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/xwmzmUX"><img src="https://i.imgur.com/xwmzmUX.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We have different ways to get to the Control Panel. We can either go straight to the start menu and then serach for the control panel then click on it or Right-click on your windows menu = Run = Control.
+  
 </p>
+<img src=
+<img src=<a href="https://imgur.com/MeYMfzT"><img src="https://i.imgur.com/MeYMfzT.png" title="source: imgur.com" /></a>
 <br />
+After opening the control Panel we will navigate to the program and feature under that we will click  on Turn Windows features on or off> Internet information Service > World Wide Web service > Application Development features then > CGI.
+<img src="<a href="https://imgur.com/eBXCfuf"><img src="https://i.imgur.com/eBXCfuf.png" title="source: imgur.com" /></a>While Activating CGI this will allows us to host the webpage above on my Vrtual Machine.We will test this by typing 127.0.0.1 into google on My VM. The result will load in the above picture.
+                                                                                                        <img src=<a href="https://imgur.com/Yp66Sqp"><img src="https://i.imgur.com/Yp66Sqp.png" title="source: imgur.com" /></a>
+- Our next step is downloading VC_Redlist Software, This is needed for our PHP to work.                  - Download and Install your MSQL Server.
+   This server is were our osTicket will be opreating from, The username used to set up the SQL would be root and password: password1
