@@ -76,6 +76,22 @@ We will download and install the MSQL server from our link; This software will b
 We will open IIS and set it to admin; Then we will follow these steps open PHP Manager = Register for a new PHP Enter: C>PHP =php-cgi.exe.Now restart our server. 
 <img src= <a href="https://imgur.com/4fDrd8d"><img src="https://i.imgur.com/4fDrd8d.png" title="source: imgur.com" /></a>
  Our step would be downloading and installing osTicket software. Open osticket= upload; Then we will Extract the upload file into C:= lnetpub=wwwroot. Now we will rename the "upload" folder to "osTicket." Then we will return to ISS and restart the server.
-<img src=<a href="https://imgur.com/ZsUui7g"><img src="https://i.imgur.com/ZsUui7g.png" title="source: imgur.com" /></a>
-                                                                                                                 
-                                                                                                                 
+<img src=<a href="https://imgur.com/2GfI5Nl"><img src="https://i.imgur.com/2GfI5Nl.png" title="source: imgur.com" /></a>
+In IIS = Sites = default Web Service = osTicket = Browse *80 to open the osTicket in our internet browser.                                                                                                                
+<img src=<a href="https://imgur.com/fstEYSy"><img src="https://i.imgur.com/fstEYSy.png" title="source: imgur.com" /></a>
+<img src= <a href="https://imgur.com/vO3mkXr"><img src="https://i.imgur.com/vO3mkXr.png" title="source: imgur.com" /></a>
+Now we need to enable some extensions so that our osTicket can operate. In our ISS software, we have to open sites = osTicket = PHP Manager = Enable or disable extensions, enable extensions:ph.pop.cash.dll,phplmap.dll,phpintl.dll. Then we will refresh the osTicket tab in our internet explorer.
+<img src=<a href="https://imgur.com/cnl6WfD"><img src="https://i.imgur.com/cnl6WfD.png" title="source: imgur.com" /></a>
+Next rename the file "Ostsampleconfig" to "Ostconfig". This file can be found in our Browsw = wwwroot = include = Ostsampleconfig.
+<img src=<a href="https://imgur.com/UR5JbT9"><img src="https://i.imgur.com/UR5JbT9.png" title="source: imgur.com" /></a>
+Right-click "ostconfig = open properties = security = advanced = disable ingeritance = remove all permissions. We can now select "Everyone" and apply.                                                     
+<img src=<a href="https://imgur.com/Cd5egeh"><img src="https://i.imgur.com/Cd5egeh.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/8OPYOIw"><img src="https://i.imgur.com/8OPYOIw.png" title="source: imgur.com" /></a>
+Download and install Heidi from our link the step to follow aew Next right-click = create new = database = and name it as osTicket.Open osTicket in our internet browser then fill out the installation deatails and install.
+<img src=<a href="https://imgur.com/ss14rqV"><img src="https://i.imgur.com/ss14rqV.png" title="source: imgur.com" /></a>
+In the next step we will Delect the folder names "setup" this folder is in our osTicket = setup.
+<img src=<a href="https://imgur.com/dAgOcck"><img src="https://i.imgur.com/dAgOcck.png" title="source: imgur.com" /></a>
+Right-click "ostconfig = properties = security = advanced = disabled inheritance = modify = read only. Then we select "Everyone" and apply.
+<img src=<a href="https://imgur.com/7J24XbJ"><img src="https://i.imgur.com/7J24XbJ.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/YNwPojY"><img src="https://i.imgur.com/YNwPojY.png" title="source: imgur.com" /></a>
+Lastly we will open and log in to our osTicket with the credentials we created when filling out the osTicket installation page.
