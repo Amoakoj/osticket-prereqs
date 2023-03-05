@@ -74,5 +74,8 @@ We will download and install the MSQL server from our link; This software will b
 <img src=<a href="https://imgur.com/7rty0Pr"><img src="https://i.imgur.com/7rty0Pr.png" title="source: imgur.com" /></a>
 <img src=<a href="https://imgur.com/JOdfaPp"><img src="https://i.imgur.com/JOdfaPp.png" title="source: imgur.com" /></a>
 We will open IIS and set it to admin; Then we will follow these steps open PHP Manager = Register for a new PHP Enter: C>PHP =php-cgi.exe.Now restart our server. 
+<img src= <a href="https://imgur.com/4fDrd8d"><img src="https://i.imgur.com/4fDrd8d.png" title="source: imgur.com" /></a>
+ Our step would be downloading and installing osTicket software. Open osticket= upload; Then we will Extract the upload file into C:= lnetpub=wwwroot. Now we will rename the "upload" folder to "osTicket." Then we will return to ISS and restart the server.
+<img src=<a href="https://imgur.com/ZsUui7g"><img src="https://i.imgur.com/ZsUui7g.png" title="source: imgur.com" /></a>
                                                                                                                  
                                                                                                                  
