@@ -82,7 +82,7 @@ In IIS = Sites = default Web Service = osTicket = Browse *80 to open the osTicke
 <img src= <a href="https://imgur.com/vO3mkXr"><img src="https://i.imgur.com/vO3mkXr.png" title="source: imgur.com" /></a>
 Now we need to enable some extensions so that our osTicket can operate. In our ISS software, we have to open sites = osTicket = PHP Manager = Enable or disable extensions, enable extensions:ph.pop.cash.dll,phplmap.dll,phpintl.dll. Then we will refresh the osTicket tab in our internet explorer.
 <img src=<a href="https://imgur.com/cnl6WfD"><img src="https://i.imgur.com/cnl6WfD.png" title="source: imgur.com" /></a>
-Next rename the file "Ostsampleconfig" to "Ostconfig". This file can be found in our Browsw = wwwroot = include = Ostsampleconfig.
+Next rename the file "Ostsampleconfig" to "Ostconfig". This file can be found in our Browse = wwwroot = include = Ostsampleconfig.
 <img src=<a href="https://imgur.com/UR5JbT9"><img src="https://i.imgur.com/UR5JbT9.png" title="source: imgur.com" /></a>
 Right-click "ostconfig = open properties = security = advanced = disable ingeritance = remove all permissions. We can now select "Everyone" and apply.                                                     
 <img src=<a href="https://imgur.com/Cd5egeh"><img src="https://i.imgur.com/Cd5egeh.png" title="source: imgur.com" /></a>
