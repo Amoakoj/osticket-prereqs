@@ -63,6 +63,16 @@ We have different ways to get to the Control Panel. We can either go straight to
 <br />
 After opening the control Panel we will navigate to the program and feature under that we will click  on Turn Windows features on or off> Internet information Service > World Wide Web service > Application Development features then > CGI.
 <img src="<a href="https://imgur.com/eBXCfuf"><img src="https://i.imgur.com/eBXCfuf.png" title="source: imgur.com" /></a>While Activating CGI this will allows us to host the webpage above on my Vrtual Machine.We will test this by typing 127.0.0.1 into google on My VM. The result will load in the above picture.
-                                                                                                        <img src=<a href="https://imgur.com/Yp66Sqp"><img src="https://i.imgur.com/Yp66Sqp.png" title="source: imgur.com" /></a>
+ <img src=<a href="https://imgur.com/Yp66Sqp"><img src="https://i.imgur.com/Yp66Sqp.png" title="source: imgur.com" /></a>
 - Our next step is downloading VC_Redlist Software, This is needed for our PHP to work.                  - Download and Install your MSQL Server.
-   This server is were our osTicket will be opreating from, The username used to set up the SQL would be root and password: password1
+   This server is were our osTicket will be opreating from, The username used to set up the SQL would
+                                                                                                    be root and password: password1
+<img src =<a href="https://imgur.com/GO1buxc"><img src="https://i.imgur.com/GO1buxc.png" title="source: imgur.com" /></a>
+We will download and install the MSQL server from our link; This software will be the server on which our osTicket will operate. The name for our osTicket server would be username = root and password:password1 and then we will create a server for our osTicket to use.
+<img src= <a href="https://imgur.com/P2QenYi"><img src="https://i.imgur.com/P2QenYi.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/AV5Erog"><img src="https://i.imgur.com/AV5Erog.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/7rty0Pr"><img src="https://i.imgur.com/7rty0Pr.png" title="source: imgur.com" /></a>
+<img src=<a href="https://imgur.com/JOdfaPp"><img src="https://i.imgur.com/JOdfaPp.png" title="source: imgur.com" /></a>
+We will open IIS and set it to admin; Then we will follow these steps open PHP Manager = Register for a new PHP Enter: C>PHP =php-cgi.exe.Now restart our server. 
+                                                                                                                 
+                                                                                                                 
